@@ -5,12 +5,12 @@ from PIL import Image
 import qrcode
 
 st.title("QR code Genator")
-# st.text("Aim of this project is to whether a candidate is qualified for a role based his \n or her education, experience, and other information captured on their resume.")
+st.text("Content provide by user is directly encode in the image to generate QR-Code. Make sure everything you enter is correct because you can’t change the content once your QR code is printed.")
 
 text = st.text_input('Enter the Text')
 
 
-click = st.button("Genorate")
+click = st.button("Generate")
 
 
 if click:
